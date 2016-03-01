@@ -19,7 +19,7 @@ h2 {
 }
 
 #page1 {
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .logo {
@@ -33,11 +33,27 @@ h2 {
 
 }
 
+.statement {
+    padding-bottom: 20px;
+    font-size: 26px;
+    height: 40px;
+    line-height: 40px;
+    font-size: bold;
+    color: #4fc1e9;
+    text-shadow: 1px 1px #afc3aa, 1px 1px #ffb2d9;
+}
+
+.preferedCity {
+    font-size: 20px;
+    padding-bottom: 20px;
+     color: #4fc1e9;
+    text-shadow: 1px 1px #afc3aa, 1px 1px #ffb2d9;
+}
 
 #page1::after {
     content: '';
     clear: both;
-    height: 20px;
+    height: 90px;
     display: block;
 }
 
